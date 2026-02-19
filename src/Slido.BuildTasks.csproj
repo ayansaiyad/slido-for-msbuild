@@ -14,17 +14,17 @@
   <PropertyGroup>
     <Product>Slido Build Tasks</Product>
     <AssemblyTitle>Slido Build Tasks</AssemblyTitle>
-    <Description></Description>
+    <Description>Custom build tasks for Slido MSBuild workflows.</Description>
     <Copyright>© 2025 Cisco Systems, Inc. All rights reserved.</Copyright>
     <Company>Slido</Company>
     <Authors>Jozef Izso</Authors>
-    <RepositoryUrl>https://github.com/slidoapp/slido-for-msbuild.git</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/slidoapp/slido-for-msbuild</PackageProjectUrl>
+    <RepositoryUrl>https://github.com</RepositoryUrl>
+    <PackageProjectUrl>https://github.com</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
-
-<NexusUrl>http://192.168.0.42:8081/repository/slido-for-msbuild/</NexusUrl>
-<NexusKey>240f2403-60f4-33de-be9b-897822d4d2c6</NexusKey>
+    <!-- Nexus Configuration -->
+    <NexusUrl>http://192.168.0.42:8081/repository/slido-for-msbuild/</NexusUrl>
+    <NexusKey>240f2403-60f4-33de-be9b-897822d4d2c6</NexusKey>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,4 +32,13 @@
     <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.9.30" PrivateAssets="All" />
     <PackageReference Include="WixToolset.Dtf.WindowsInstaller" Version="6.0.1" />
   </ItemGroup>
+
+  <!-- Automated Push to Nexus Target -->
+  <Target Name="PushToNexus" AfterTargets="Pack" Condition="'$(Configuration)' == 'Release'">
+    <PropertyGroup>
+      <PackageFilePath>$(PackageOutputFullPath)$(PackageId).$(PackageVersion).nupkg</PackageFilePath>
+    </PropertyGroup>
+    <Message Importance="high" Text="Pushing $(PackageFilePath) to Nexus at $(NexusUrl)..." />
+    <Exec Command="dotnet nuget push &quot;$(PackageFilePath)&quot; --source $(NexusUrl) --api-key $(NexusKey) --skip-duplicate" />
+  </Target>
 </Project>
