@@ -1,0 +1,9 @@
+﻿C:\Users\ayan.saiyad\Desktop\MSBuild\Sonar\slido-for-msbuild\tests\ChangeFileVersionTests.cs
+C:\Users\ayan.saiyad\.nuget\packages\nunit3testadapter\5.1.0\build\net462\NUnit3.TestAdapter.pdb
+C:\Users\ayan.saiyad\.nuget\packages\nunit3testadapter\5.1.0\build\net462\nunit.engine.dll
+C:\Users\ayan.saiyad\.nuget\packages\nunit3testadapter\5.1.0\build\net462\nunit.engine.api.dll
+C:\Users\ayan.saiyad\.nuget\packages\nunit3testadapter\5.1.0\build\net462\nunit.engine.core.dll
+C:\Users\ayan.saiyad\.nuget\packages\nunit3testadapter\5.1.0\build\net462\testcentric.engine.metadata.dll
+C:\Users\ayan.saiyad\Desktop\MSBuild\Sonar\slido-for-msbuild\tests\database.msi
+C:\Users\ayan.saiyad\Desktop\MSBuild\Sonar\slido-for-msbuild\tests\Test.targets
+C:\Users\ayan.saiyad\.nuget\packages\nunit3testadapter\5.1.0\build\net462\NUnit3.TestAdapter.dll

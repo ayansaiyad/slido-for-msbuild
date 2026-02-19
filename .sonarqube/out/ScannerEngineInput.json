@@ -1,0 +1,144 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1770894246000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "Dotnet-Ayan2"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild"
+    },
+    {
+      "key": "sonar.sources",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.github\\workflows\\test.yml"
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584,3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.projectKey",
+      "value": "Dotnet-Ayan2:7A98875C-8C86-C3D8-8EA4-E5FB2846A584"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.projectName",
+      "value": "Slido.BuildTasks"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.projectBaseDir",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\src"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.working.directory",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.sources",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\src\\Tasks\\ChangeFileVersion.cs,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\src\\obj\\project.assets.json,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\src\\obj\\Slido.BuildTasks.csproj.nuget.dgspec.json,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\src\\obj\\Debug\\net48\\Slido.BuildTasks.sourcelink.json"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "7A98875C-8C86-C3D8-8EA4-E5FB2846A584.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.projectKey",
+      "value": "Dotnet-Ayan2:3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.projectName",
+      "value": "Slido.BuildTasks.Tests"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.projectBaseDir",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.working.directory",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.tests",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\obj\\project.assets.json,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\obj\\Slido.BuildTasks.Tests.csproj.nuget.dgspec.json,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\bin\\Debug\\net48\\Slido.BuildTasks.Tests.dll.config,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\obj\\Debug\\net48\\Slido.BuildTasks.Tests.dll.config,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\obj\\Debug\\net48\\Slido.BuildTasks.Tests.sourcelink.json,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\ChangeFileVersionTests.cs,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\database.msi,C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\tests\\Test.targets"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\1"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\1\\Issues.json"
+    },
+    {
+      "key": "3905AEB3-54F9-DEE0-6FAE-96E780B9AE3E.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\ayan.saiyad\\Desktop\\MSBuild\\Sonar\\slido-for-msbuild\\.sonarqube\\out\\1\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://192.168.0.32:9000"
+    },
+    {
+      "key": "sonar.cs.vscoveragexml.reportsPaths",
+      "value": "coverage.xml"
+    },
+    {
+      "key": "sonar.exclusions",
+      "value": "coverage.xml"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}
