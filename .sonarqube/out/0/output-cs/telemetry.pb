@@ -1,1 +1,0 @@
-lRXC:\Users\ayan.saiyad\Desktop\MSBuild\Sonar\slido-for-msbuild\src\Slido.BuildTasks.csproj¢net48òCSharp8

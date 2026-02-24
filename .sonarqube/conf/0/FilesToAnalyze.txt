@@ -1,1 +1,0 @@
-﻿C:\Users\ayan.saiyad\Desktop\MSBuild\Sonar\slido-for-msbuild\src\Tasks\ChangeFileVersion.cs

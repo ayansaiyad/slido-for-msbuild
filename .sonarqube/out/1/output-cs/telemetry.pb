@@ -1,1 +1,0 @@
-tR`C:\Users\ayan.saiyad\Desktop\MSBuild\Sonar\slido-for-msbuild\tests\Slido.BuildTasks.Tests.csproj¢net48òCSharp8
